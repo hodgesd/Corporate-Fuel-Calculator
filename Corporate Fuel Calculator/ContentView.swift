@@ -6,12 +6,17 @@ struct ContentView: View {
             UpliftCalculator()
                 .tabItem {
                     Image(systemName: "gauge.badge.plus")
-                    Text("Uplift Calculator")
+                    Text("Uplift")
+            }
+            TankerCalculator()
+                .tabItem {
+                    Image(systemName: "gauge.badge.plus")
+                    Text("Tankering")
             }
             FuelConverter()
                 .tabItem {
                     Image(systemName: "crop.rotate")
-                    Text("Fuel Converter")
+                    Text("Converter")
             }
         }
     }

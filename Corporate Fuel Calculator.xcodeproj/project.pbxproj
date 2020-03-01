@@ -15,6 +15,7 @@
 		2404C920238B26F100F9EC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2404C91E238B26F100F9EC15 /* LaunchScreen.storyboard */; };
 		240FE77E23A557C700FEEA0C /* FuelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FE77D23A557C700FEEA0C /* FuelConverter.swift */; };
 		240FE78023A5589700FEEA0C /* UpliftCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240FE77F23A5589700FEEA0C /* UpliftCalculator.swift */; };
+		241FE7C5240619780009D775 /* TankerCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FE7C4240619780009D775 /* TankerCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2404C921238B26F100F9EC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		240FE77D23A557C700FEEA0C /* FuelConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelConverter.swift; sourceTree = "<group>"; };
 		240FE77F23A5589700FEEA0C /* UpliftCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftCalculator.swift; sourceTree = "<group>"; };
+		241FE7C4240619780009D775 /* TankerCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankerCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				2404C913238B26EE00F9EC15 /* AppDelegate.swift */,
 				2404C915238B26EE00F9EC15 /* SceneDelegate.swift */,
 				2404C917238B26EE00F9EC15 /* ContentView.swift */,
+				241FE7C4240619780009D775 /* TankerCalculator.swift */,
 				240FE77D23A557C700FEEA0C /* FuelConverter.swift */,
 				2404C919238B26F000F9EC15 /* Assets.xcassets */,
 				2404C91E238B26F100F9EC15 /* LaunchScreen.storyboard */,
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241FE7C5240619780009D775 /* TankerCalculator.swift in Sources */,
 				2404C914238B26EE00F9EC15 /* AppDelegate.swift in Sources */,
 				2404C916238B26EE00F9EC15 /* SceneDelegate.swift in Sources */,
 				240FE78023A5589700FEEA0C /* UpliftCalculator.swift in Sources */,
@@ -301,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Corporate Fuel Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = 52YFV3CQQ2;
 				ENABLE_PREVIEWS = YES;
@@ -310,6 +314,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.myalohaspirit.AeroFueler;
 				PRODUCT_NAME = AeroFuel;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Corporate Fuel Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = 52YFV3CQQ2;
 				ENABLE_PREVIEWS = YES;
@@ -331,6 +336,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.myalohaspirit.AeroFueler;
 				PRODUCT_NAME = AeroFuel;
 				SWIFT_VERSION = 5.0;
