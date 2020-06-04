@@ -32,7 +32,7 @@ class SliderData {
             toUnits = "Pounds"
             defaultUnits = 1000.0
             maxRange = 4500.0
-            step = 1
+            step = 5
             gallonMultiplier = 6.7
             literMultiplier = 3.79
         }

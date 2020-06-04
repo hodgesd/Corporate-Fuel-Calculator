@@ -68,7 +68,7 @@ struct UpliftCalculator: View {
                             .fontWeight(.semibold)
 
                         // Fuel Input Picker
-                        Picker("Ramp Fuel2", selection: $rampFuelPicker) {
+                        Picker("Ramp Fuel2", selection: $rampFuelPicker.animation()) {
                             ForEach(0..<rampFuelPickers.count) {
                                 Text("\(self.rampFuelPickers[$0])")
                             }
